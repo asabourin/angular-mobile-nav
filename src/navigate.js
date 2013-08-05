@@ -7,7 +7,7 @@ angular.module('ajoslin.mobile-navigate')
 
     function Page(path, transition, isReverse) {
       var _path = path,
-        _transition = transition || 'slide',
+        _transition = transition || 'none',
         _isReverse = isReverse,
         _onceTransition;
 
